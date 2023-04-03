@@ -1,14 +1,12 @@
 <p align="center"> 
-    <img src="https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg
-" alt="Educacion IT"  height="100"/>
+    <img src="https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg" alt="Educacion IT"  height="100"/>
 </p>
 
 # Proyecto de JavaScrip AWP
 
 
  <br><p align="center"> 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvi0VDQg6bSaC1sJnA4L0DUQVZy4QDmRlE3j3VpGiGpsTUSYqUkY5hGo7mcCw97qRTE-Y&usqp=CAU
-" alt="JavaScrip AWP"  height="200"/></p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvi0VDQg6bSaC1sJnA4L0DUQVZy4QDmRlE3j3VpGiGpsTUSYqUkY5hGo7mcCw97qRTE-Y&usqp=CAU" alt="JavaScrip AWP"  height="200"/></p>
 <br><h2 align="center">Herramientas complementarias</h2><br><br>
 
 
