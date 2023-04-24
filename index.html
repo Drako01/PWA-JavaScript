@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------------------------------------------------------------- -->
+    <!-- PWA Manifest                                                    -->
+    <!-- --------------------------------------------------------------- -->
+    <link rel="manifest" href="manifest.json"> <!-- /manifest.json -->
+    <meta name="theme-color" content="#8bc34a"/>
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png"> <!-- /images/icons/icon-192x192.png -->
+
+    <!-- Hojas de estilos de Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_green-lime.min.css" />
+
+    <!-- Hojas de estilos propias -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Super Lista</title>
+</head>
+
+<body>
+
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Super Lista Productos</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <!-- <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a> -->
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Servicios</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Servicios 1</a>
+                <a class="mdl-navigation__link" href="">Servicios 2</a>
+                <a class="mdl-navigation__link" href="">Servicios 3</a>
+                <a class="mdl-navigation__link" href="">Servicios 4</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+
+                <div class="contenedor">
+
+                    <!-- Campo de ingreso del nombre del producto a ingresar -->
+                    <div class="mdl-textfield mdl-js-textfield w-40">
+                        <input class="mdl-textfield__input" type="text" id="ingreso-producto">
+                        <label class="mdl-textfield__label" for="ingreso-producto">Ingrese Producto</label>
+                    </div>
+                    <!-- Botón para agregar el nuevo producto -->
+                    <div class="w-30 ml-item">
+                        <button
+                            class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
+                            id ="btn-entrada-producto"    
+                        >
+                            <i class="material-icons">add_shopping_cart</i>
+                        </button>
+                    </div>
+                    <!-- Botón para borrar todos los productos -->
+                    <div class="w-30">
+                        <button
+                            id="btn-borrar-productos"
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Borrar
+                        </button>
+                    </div>
+
+                </div> <!-- .contenedor -->
+
+                <!-- -------------------- -->
+                <!-- Listado de productos -->
+                <!-- -------------------- -->
+
+                <div id="lista"></div>
+
+
+            </div>
+        </main>
+    </div> <!-- mdl-layout mdl-js-layout mdl-layout--fixed-header -->
+
+
+
+
+    <!-- Script Material Design Lite -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Script Propio -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
